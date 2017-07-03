@@ -35,7 +35,7 @@ public class Seventh_project {
         {
             
             System.out.println(studArray[i]);
-        }*/
+        }
         int mass[] = {2,5,3,8,10};
         for (int i = 0; i < mass.length ; i++) 
         {
@@ -44,6 +44,21 @@ public class Seventh_project {
             System.out.println(mass[i]);
         }
         }
+        
+        int mass[] = {-2,2,-3,-1,0,5};
+        int sum = 0;
+        int positCount = 0;
+        
+        for (int i = 0; i < mass.length ; i++) 
+            {
+                if (mass[i] < 0)    
+                    {
+                        System.out.println(mass[i]);
+                        sum+=mass[i];
+                        positCount++;
+                    }
+        }
+        System.out.println((double)sum / positCount);*/
     }
     
 }
