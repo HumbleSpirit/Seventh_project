@@ -64,13 +64,13 @@ public class Seventh_project {
          int max = 25;
         System.out.println((int)(Math.random()*(max - min + 1)) + min); 
             
-        }*/
+        }
         for (int i = 0; i < 10; i++) {
          int min = -10;
          int max = 10;
         System.out.println((int)(Math.random()*(max - min + 1)) + min); 
             
-        }
+        }*/
         
     }
     
