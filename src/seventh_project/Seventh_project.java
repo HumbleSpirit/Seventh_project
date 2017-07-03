@@ -16,9 +16,11 @@ public class Seventh_project {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int studArray[ ] = new int[10];
-        
-        
+        //int studArray[ ] = new int[10];
+        int studArray[] = {1,2,3,4};
+        System.out.println(studArray[0]);
+        System.out.println(studArray[1]);
+        System.out.println(studArray[2]);
     }
     
 }
