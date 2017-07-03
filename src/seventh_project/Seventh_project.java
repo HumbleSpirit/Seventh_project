@@ -60,8 +60,9 @@ public class Seventh_project {
         }
         System.out.println((double)sum / positCount);*/
         for (int i = 0; i < 10; i++) {
-         
-        System.out.println((int)(Math.random()*4)); //Генерация до трех
+         int min = 5;
+         int max = 10;
+        System.out.println((int)(Math.random()*(max - min+1)+min)); 
             
         }
         
