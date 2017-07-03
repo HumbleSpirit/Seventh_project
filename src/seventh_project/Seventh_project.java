@@ -16,7 +16,7 @@ public class Seventh_project {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //final int arrSize = 3;
+       /* final int arrSize = 3;
         //int studArray[ ] = new int[10];
         //int studArray[ ] = new int[arrSize];
         int studArray[] = {9,2,5};
@@ -31,10 +31,18 @@ public class Seventh_project {
             System.out.println(studArray[i]);
         }
         
-        for (int i = 3-1; i >= 0; i--) 
+        for (int i = arrSize - 1; i >= 0; i--) 
         {
             
             System.out.println(studArray[i]);
+        }*/
+        int mass[] = {2,5,3,8,10};
+        for (int i = 0; i < mass.length ; i++) 
+        {
+        if (mass[i]%2 == 0)    
+        {
+            System.out.println(mass[i]);
+        }
         }
     }
     
