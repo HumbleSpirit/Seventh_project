@@ -16,14 +16,24 @@ public class Seventh_project {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //final int arrSize = 3;
         //int studArray[ ] = new int[10];
-        int studArray[] = {1,2,3,4};
+        //int studArray[ ] = new int[arrSize];
+        int studArray[] = {9,2,5};
         System.out.println(studArray[0]);
         System.out.println(studArray[1]);
         System.out.println(studArray[2]);
-        
-        for (int i = 0; i < 3; i++) 
+        System.out.println(studArray.length);
+                
+        for (int i = 0; i < studArray.length; i++) 
         {
+            
+            System.out.println(studArray[i]);
+        }
+        
+        for (int i = 3-1; i >= 0; i--) 
+        {
+            
             System.out.println(studArray[i]);
         }
     }
