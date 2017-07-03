@@ -71,6 +71,17 @@ public class Seventh_project {
         System.out.println((int)(Math.random()*(max - min + 1)) + min); 
             
         }*/
+        int mass[] = new int[10];
+        int min = -12;
+        int max = 19;
+        for (int i = 0; i < mass.length; i++) 
+        {
+            mass[i] = ((int)(Math.random()*(max - min + 1)) + min); 
+            System.out.println(mass[i]);
+        }
+        
+        //int arrayElement = 0;
+        
         
     }
     
