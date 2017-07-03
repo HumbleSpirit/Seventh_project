@@ -5,6 +5,8 @@
  */
 package seventh_project;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Boro_s99
@@ -58,8 +60,8 @@ public class Seventh_project {
                         positCount++;
                     }
         }
-        System.out.println((double)sum / positCount);*/
-        /*for (int i = 0; i < 10; i++) {
+        System.out.println((double)sum / positCount);
+        for (int i = 0; i < 10; i++) {
          int min = 15;
          int max = 25;
         System.out.println((int)(Math.random()*(max - min + 1)) + min); 
@@ -70,7 +72,7 @@ public class Seventh_project {
          int max = 10;
         System.out.println((int)(Math.random()*(max - min + 1)) + min); 
             
-        }*/
+        }
         int mass[] = new int[10];
         int min = -12;
         int max = 19;
@@ -78,9 +80,16 @@ public class Seventh_project {
         {
             mass[i] = (int)(Math.random()*(max - min + 1)) + min; 
             System.out.println(mass[i]);
-        }
+        }*/
+        Scanner in = new Scanner(System.in);
+        System.out.println("Task 1");
+        System.out.println("Input array of 5 elements, and print it backwards");
+        int arrayElements[] = new int[5];
         
-        //int arrayElement = 0;
+        for (int i = 0; i < 5; i++) {
+            
+        }
+        arrayElement = in.nextInt();
         
         
     }
