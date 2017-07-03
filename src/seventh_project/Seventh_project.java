@@ -59,6 +59,12 @@ public class Seventh_project {
                     }
         }
         System.out.println((double)sum / positCount);*/
+        for (int i = 0; i < 10; i++) {
+         
+        System.out.println((int)(Math.random()*4)); //Генерация до трех
+            
+        }
+        
     }
     
 }
