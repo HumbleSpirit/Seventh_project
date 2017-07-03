@@ -21,6 +21,11 @@ public class Seventh_project {
         System.out.println(studArray[0]);
         System.out.println(studArray[1]);
         System.out.println(studArray[2]);
+        
+        for (int i = 0; i < 3; i++) 
+        {
+            System.out.println(studArray[i]);
+        }
     }
     
 }
